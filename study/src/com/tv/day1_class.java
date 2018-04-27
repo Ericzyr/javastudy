@@ -7,7 +7,7 @@ public class day1_class {
 		one.age=12;
 		System.out.println(one.age);
 		one.sleep("沙发");
-		
+		one.sleep(5);
 		int age	=one.getAge(23);
 		System.out.println(age);	
 		
