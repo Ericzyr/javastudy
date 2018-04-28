@@ -1,5 +1,4 @@
 package com.tv;
-
 public class Person {
 	String name=null;
 	int age;
@@ -8,7 +7,7 @@ public class Person {
 		System.out.print("hello wold");
 	}
 	/*有参无返回值*/
-	public void sleep(String agrs){
+	public void tosleep(String agrs){
 		System.out.println("hello to go"+agrs);
 	}
 	
@@ -17,7 +16,7 @@ public class Person {
 		return agre;
 	}
 	
-	public void sleep(int time){
+	public void tosleep(int time){
 		if(time<0)return;
 		for(int i =0;i<time;i++){
 			System.out.println(time);

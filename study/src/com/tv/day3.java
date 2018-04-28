@@ -19,9 +19,6 @@ class st{
 	}
 }
 
-
-
-
 public class day3 {
 	public static void main(String[] agrs){
 		st one=new st();
