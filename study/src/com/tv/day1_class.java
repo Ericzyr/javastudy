@@ -1,7 +1,7 @@
 package com.tv;
-public class day1_class extends Person {
+public class day1_class extends class3 {
 	public static void main(String[] args) {
-		Person one = new Person();
+		class3 one = new class3();
 		one.age=12;
 		System.out.println(one.age);
 		one.tosleep("沙发");
