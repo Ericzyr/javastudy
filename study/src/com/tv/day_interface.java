@@ -34,14 +34,18 @@ class Persontt{
 
 /* 类 可以多个方法实现但接口不可以继承 ，只有类可以继承*/
 class student2 extends Persontt implements Apple,banana{
+		@Override
 		public void show(){
 			System.out.println(name+"在吃苹果");
 		}
+		
+		@Override
 		public void eat(){
 			System.out.print("在吃香蕉");
 		}
-	
 }
+
+
 public class day_interface {
 		public static void main(String[] args){
 			student2 see=new student2();
