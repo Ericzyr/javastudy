@@ -21,6 +21,7 @@ public class user {
 	user(){
 		
 	}
+	
 	user(String name,int id){
 		this.id=id;
 		this.name=name;
